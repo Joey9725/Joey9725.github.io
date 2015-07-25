@@ -1,0 +1,39 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+body {
+  font-family: Roboto;
+  background-image: url("imgs/honeycomb.png");
+  overflow: hidden;
+}
+
+#first {
+  animation-name: slideup;
+  animation-duration: 3s;
+}
+
+#second {
+  animation-name: slideup;
+  animation-duration: 3.5s;
+}
+
+@keyframes slideup{
+  from {
+    margin-top: 100%;
+  }
+  to {
+    margin-bottom: 0%;
+  }
+}
+
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+}
+
+p {
+  text-align: center;
+}
