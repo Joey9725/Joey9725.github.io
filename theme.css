@@ -19,6 +19,13 @@ img {
   -moz-border-radius: 200px;
 }
 
+nav {
+	text-align: center;
+}
+nav a{
+	color: black;
+}
+
 #first {
   animation-name: slideup;
   animation-duration: 3s;
