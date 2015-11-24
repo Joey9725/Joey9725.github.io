@@ -6,6 +6,19 @@ body {
   overflow: hidden;
 }
 
+p {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+}
+
 #first {
   animation-name: slideup;
   animation-duration: 3s;
@@ -25,15 +38,3 @@ body {
   }
 }
 
-img {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  border-radius: 200px;
-  -webkit-border-radius: 200px;
-  -moz-border-radius: 200px;
-}
-
-p {
-  text-align: center;
-}
