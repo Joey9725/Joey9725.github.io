@@ -1,47 +1,38 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 
 body {
-  font-family: Roboto;
-  background-image: url("imgs/honeycomb.png");
-  overflow: hidden;
+	font-family: Roboto;
+	color: rgba(18,18,18,1);
+	background-image: url("imgs/honeycomb.png");
 }
 
 p {
-  text-align: center;
+	background-color: rgba(222,222,222,.5);
+	text-align: center;
 }
 
 img {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  border-radius: 200px;
-  -webkit-border-radius: 200px;
-  -moz-border-radius: 200px;
+	display: block;
+	margin: auto;
+	border-radius: 200px;
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
 }
 
 nav {
+	background-color: rgba(222,222,222,.5);
 	text-align: center;
+	margin: 10 10;
+	padding: 10;
 }
+
 nav a{
-	color: black;
+	color: rgba(18,18,18,1);
+	text-decoration: none;
+	margin: 1 4;
+	font-size: 20;
 }
 
-#first {
-  animation-name: slideup;
-  animation-duration: 3s;
+.one:hover{
+	background-color: rgba(200,200,200,1);
 }
-
-#second {
-  animation-name: slideup;
-  animation-duration: 3.5s;
-}
-
-@keyframes slideup{
-  from {
-    margin-top: 100%;
-  }
-  to {
-    margin-bottom: 0%;
-  }
-}
-
