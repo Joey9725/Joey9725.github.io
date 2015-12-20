@@ -13,7 +13,7 @@ p {
 
 img {
 	display: block;
-	margin: auto;
+	margin: 10 auto;
 	border-radius: 200px;
 	-webkit-border-radius: 200px;
 	-moz-border-radius: 200px;
