@@ -22,15 +22,12 @@ img {
 nav {
 	background-color: rgba(222,222,222,.5);
 	text-align: center;
-	margin: auto;
-	padding: 10;
+	margin: 10 10;
 }
 
 nav a{
 	color: rgba(18,18,18,1);
 	text-decoration: none;
-	margin: 1 4;
-	font-size: 20;
 }
 
 .one:hover{
