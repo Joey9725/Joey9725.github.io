@@ -6,9 +6,9 @@ body {
 	background-image: url("imgs/honeycomb.png");
 }
 
-p {
-	background-color: rgba(222,222,222,.5);
+p, nav {
 	text-align: center;
+	margin-bottom: 10px;
 }
 
 img {
@@ -17,17 +17,11 @@ img {
 	border-radius: 15px;
 }
 
-nav {
-	background-color: rgba(222,222,222,.5);
-	text-align: center;
-	margin-bottom: 10px;
-}
-
 nav a{
 	color: rgba(18,18,18,1);
 	text-decoration: none;
 }
 
-.one:hover{
+nav div:hover{
 	background-color: rgba(200,200,200,1);
 }
